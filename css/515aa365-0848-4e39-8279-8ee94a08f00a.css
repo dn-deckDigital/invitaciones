@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: sans-serif;
 }
-body{
+body, html{
     overflow-x: hidden;
 }
 a{
