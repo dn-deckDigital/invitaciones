@@ -34,7 +34,10 @@ document.addEventListener("DOMContentLoaded", function () {
   updateCountdown();
 });
 
-setTimeout(cargarVideo, 1000);
+function onYouTubeIframeAPIReady() {
+  cargarVideo();
+}
+
 
 function confirmAssit(phone, message) {
   const url = `https://api.whatsapp.com/send?phone=${phone}text=${message}`;
