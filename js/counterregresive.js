@@ -120,7 +120,6 @@ function cargarReproductor(videoId) {
 function onPlayerReady(event) {
     setTimeout(() => {
         event.target.playVideo();
-        event.target.unMute();
     }, 1000)
  
 }
